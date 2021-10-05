@@ -4,3 +4,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#wrapper {
+    height: calc(100vh - 100px);
+    background-color: black;
+}
+
+#wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#box-navigazione {
+    float: left;
+    width: 250px;
+    height: 100%;
+    background-color: blue;
+}
+
+#box-principale {
+    float: left;
+    width: calc(100% - 250px);
+    height: 100%;
+    background-color: brown;
+  
+}
+
+/* regole player */
+
+#player {
+    height: 100px;
+    background-color: grey;
+}
