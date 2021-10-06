@@ -14,7 +14,6 @@ body{
 
 #wrapper {
     height: calc(100vh - 100px);
-    background-color: black;
 }
 
 #wrapper::after {
@@ -171,8 +170,7 @@ body{
     height: 200px;
     width: 200px;
     margin-bottom: 80px;
-    /* debug */
-    background-color: yellow;
+    
 }
 .anteprime img {
     object-fit: cover;
@@ -180,6 +178,9 @@ body{
     height: 100%;
     margin-bottom: 10px;
 }
+
+
+
 .anteprime h3,h4 {
     text-align: center;
     margin-bottom: 5px;
@@ -214,8 +215,7 @@ body{
     height: 200px;
     width: 200px;
     margin-bottom: 50px;
-    /* debug */
-    background-color: rgb(255, 115, 0);
+   
 }
 .anteprime-mix img{
     object-fit: cover;
@@ -237,8 +237,7 @@ body{
     height: 200px;
     width: 200px;
     margin-bottom: 50px;
-    /* debug */
-    background-color: rgb(255, 115, 0);
+    
 }
 .popolari img{
     object-fit: cover;
