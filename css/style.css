@@ -159,22 +159,48 @@ body{
 #ascoltati-di-recente {
     color: white;
 }
+#ascoltati-di-recente h1 {
+    margin-bottom: 20px;
+}
 
 #canzoni {
     display: flex;
     justify-content: space-between;
 }
 .anteprime {
-    height: 250px;
+    height: 200px;
     width: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     /* debug */
     background-color: yellow;
 }
+.anteprime img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.anteprime h3,h4 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.anteprime h3{
+    color: white;
+}
+.anteprime h4 {
+    font-size: 10px;
+    color: rgb(255, 255, 255, .5);
+}
 
 /* mix */
-#titolo-mix {
+#titolo-mix h1 {
     color: white;
+    margin-bottom: 10px;
+}
+#titolo-mix h3 {
+    font-size: 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255, .5);
 }
 
 
@@ -185,11 +211,44 @@ body{
 } 
 .anteprime-mix {
     float: left;
-    height: 250px;
+    height: 200px;
     width: 200px;
     margin-bottom: 50px;
     /* debug */
     background-color: rgb(255, 115, 0);
+}
+.anteprime-mix img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.anteprime-mix h3{
+    color: white;
+    text-align: center;
+}
+.destra {
+    margin-left: 95px;
+}
+
+/* artisti popolari */
+.popolari {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+    /* debug */
+    background-color: rgb(255, 115, 0);
+}
+.popolari img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.popolari h3{
+    color: white;
+    text-align: center;
 }
 
 
