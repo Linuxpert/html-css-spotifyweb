@@ -138,6 +138,7 @@ body{
 #navigazione-main nav ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 50px;
@@ -221,7 +222,7 @@ body{
 }  */
 .anteprime-mix {
     /* float: left; */
-    height: 200px;
+    height: 40%;
     width: calc((100% - 200px) / 6);
     margin-bottom: 50px;
    
