@@ -310,9 +310,24 @@ body{
 #box-player {
     height: 100%;
     width: 600px;
-    /* debag */
-    background-color: chartreuse;
     
+}
+#player-button {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#distanziamento {
+    width: 38%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#progress-bar {
+    height: 50%;
+    /* debug */
+    background-color: rgb(255, 251, 0);
 }
 
 #box-volume {
