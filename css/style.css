@@ -28,7 +28,7 @@ body{
     float: left;
     width: 200px;
     height: 100%;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     padding: 0 20px;
     
 }
@@ -50,6 +50,9 @@ body{
 }
 #navigazione ul li a:hover{
     color: white;
+}
+#navigazione ul{
+    margin-bottom: 20px;
 }
 
 #navigazione ul li{
@@ -97,7 +100,7 @@ body{
     float: left;
     width: calc(100% - 200px);
     height: 100%;
-    background-color: brown;
+    background-color: #05051c;
     overflow: auto;
     
   
@@ -254,12 +257,47 @@ body{
 
 /* regole player */
 
-#player::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-#box-player {
+#player{
+    display: flex;
     height: 100px;
     background-color: grey;
+    justify-content: space-between;
+}
+
+#box-song {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 200px;
+    /* debag */
+    background-color: chartreuse;
+}
+#img-song {
+    height: 50px;
+    width: 50px;
+    /* debug */
+    background-color: red;
+    margin-left: 10px;
+}
+#title-song {
+    height: 50px;
+    width: 80px;
+    /* debug */
+    background-color: red;
+    margin-left: 10px;
+}
+
+#box-player {
+    height: 100%;
+    width: 600px;
+    /* debag */
+    background-color: chartreuse;
+    
+}
+
+#box-volume {
+    height: 100%;
+    width: 200px;
+    /* debag */
+    background-color: chartreuse;
 }
